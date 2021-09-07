@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+import Geolocation from './common/Geolocation';
+
+
+const App: React.FunctionComponent = () => {
   return (
     <div className="App">
-   
+      <Geolocation />
     </div>
   );
 }
